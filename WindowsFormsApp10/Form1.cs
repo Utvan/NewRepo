@@ -14,7 +14,7 @@ namespace WindowsFormsApp10
         public Form1()
         {
             InitializeComponent();
-            pictureBox1.BackColor = Color.White;
+            pictureBox1.BackColor = Color.Black;
             snakePositions.Enqueue(new Point(x0, y0));
             a = pictureBox1.CreateGraphics();
             a.FillRectangle(new SolidBrush(playerColor), x0, y0, squareSize, squareSize);
@@ -139,6 +139,7 @@ namespace WindowsFormsApp10
             a.DrawString($"Score: {score}", new Font("1", 16), new SolidBrush(Color.Black), 0, pictureBox1.Height - 30);
             // проверка 228
             //квадрат27
+            //квадрат52
         }
 
         

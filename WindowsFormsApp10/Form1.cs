@@ -132,6 +132,7 @@ namespace WindowsFormsApp10
             a.FillRectangle(new SolidBrush(randomColor), 0, 0, 10, 10);
             a.FillRectangle(new SolidBrush(Color.Blue), pictureBox1.Width - 10, 0, 10, 10);
             a.DrawString($"Score: {score}", new Font("1", 16), new SolidBrush(Color.Black), 0, pictureBox1.Height - 30);
+            // проверка 228
         }
 
         

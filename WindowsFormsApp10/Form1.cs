@@ -97,6 +97,11 @@ namespace WindowsFormsApp10
             }
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public void Drawsquare(int xz, int yz, int step, Color randomColor)
         {
             sb = new SolidBrush(playerColor);

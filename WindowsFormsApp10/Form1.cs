@@ -124,6 +124,7 @@ namespace WindowsFormsApp10
                 if (sizeSteps == 0)
                     squareSize = 10;
             }
+            // теститим СКВ
 
             
             foreach (Point pos in snakePositions)
@@ -140,8 +141,10 @@ namespace WindowsFormsApp10
             // проверка 228
             //квадрат27
             //квадрат52
+            // тест
         }
 
         
     }
+
 }
